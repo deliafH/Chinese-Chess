@@ -17,7 +17,6 @@ public class GameRoom
     {
         if (GameManager.Instance.isRed())
         {
-            Debug.Log((int)(v.x * 9 + v.y));
             return (int)(v.x * 9 + v.y);
         }else
         {

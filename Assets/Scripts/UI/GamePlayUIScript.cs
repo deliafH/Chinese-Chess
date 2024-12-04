@@ -94,4 +94,5 @@ public class GamePlayUIScript : Singleton<GamePlayUIScript>
             readyButton.SetActive(false);
         });
     }
+
 }
