@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4980e268377b87e47bdf6d5e320d78a7, type: 3}
+  m_Name: Chess Sprite
+  m_EditorClassIdentifier: 
+  spriteRedList:
+  - {fileID: 337756368647013132, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  - {fileID: 6980350310283303043, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  - {fileID: -6756371313195068178, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  - {fileID: 3429671578455489731, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  - {fileID: 8996755544589096863, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  - {fileID: 488309791105784769, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  - {fileID: -1833658775701839077, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  spriteBlackList:
+  - {fileID: 3551852231137652562, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  - {fileID: 4486422260448672928, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  - {fileID: 936804037250458403, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  - {fileID: 450614224686585897, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  - {fileID: -7004062790168701926, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  - {fileID: 8258579359719262545, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  - {fileID: -3474915925630555739, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  redBase: {fileID: 5154387202545292763, guid: 031856a375aa83144897a0208cec1587, type: 3}
+  blackBase: {fileID: -2816865146437632638, guid: 031856a375aa83144897a0208cec1587, type: 3}

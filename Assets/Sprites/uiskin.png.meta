@@ -1,0 +1,1345 @@
+fileFormatVersion: 2
+guid: c9ca10ae49aac5340a3a67d89564b8c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7035266842925627582
+    second: uiskin_0
+  - first:
+      213: -6100986980877274408
+    second: uiskin_1
+  - first:
+      213: 2612725033262405016
+    second: uiskin_2
+  - first:
+      213: 6847718248133370163
+    second: uiskin_3
+  - first:
+      213: 7299140544080491704
+    second: uiskin_4
+  - first:
+      213: -7774716012045319808
+    second: uiskin_5
+  - first:
+      213: 2542018885049271725
+    second: uiskin_6
+  - first:
+      213: -8396296489665129013
+    second: uiskin_7
+  - first:
+      213: -5773558496464376016
+    second: uiskin_8
+  - first:
+      213: 4076241314628272369
+    second: uiskin_9
+  - first:
+      213: 2330013980148967031
+    second: uiskin_10
+  - first:
+      213: 7317251274726502621
+    second: uiskin_11
+  - first:
+      213: 7140843576287588457
+    second: uiskin_12
+  - first:
+      213: 8359107391715297013
+    second: uiskin_13
+  - first:
+      213: -2451229505936050775
+    second: uiskin_14
+  - first:
+      213: 901440485797500211
+    second: uiskin_15
+  - first:
+      213: -8505549598237811005
+    second: uiskin_16
+  - first:
+      213: 5847668779071507282
+    second: uiskin_17
+  - first:
+      213: 1816748558301571011
+    second: uiskin_18
+  - first:
+      213: -793943906660156749
+    second: uiskin_19
+  - first:
+      213: 5927762298975069994
+    second: uiskin_20
+  - first:
+      213: 8911782633738717305
+    second: uiskin_21
+  - first:
+      213: -7806518432847902547
+    second: uiskin_22
+  - first:
+      213: -7369702696429214636
+    second: uiskin_23
+  - first:
+      213: 8574240302693938978
+    second: uiskin_24
+  - first:
+      213: 497937785647251085
+    second: uiskin_25
+  - first:
+      213: -8959596146288824813
+    second: uiskin_26
+  - first:
+      213: 7353563771375775658
+    second: uiskin_27
+  - first:
+      213: -5894085664370234569
+    second: uiskin_28
+  - first:
+      213: 8218240257170010544
+    second: uiskin_29
+  - first:
+      213: -4282879748513878103
+    second: uiskin_30
+  - first:
+      213: 2118321326190776319
+    second: uiskin_31
+  - first:
+      213: -3924276645587345585
+    second: uiskin_32
+  - first:
+      213: 1989645174931896764
+    second: uiskin_33
+  - first:
+      213: -7827209033063100366
+    second: uiskin_34
+  - first:
+      213: -844875356649841002
+    second: uiskin_35
+  - first:
+      213: -3475514244621159997
+    second: uiskin_36
+  - first:
+      213: 5290540405583279252
+    second: uiskin_37
+  - first:
+      213: -5694371923146771879
+    second: uiskin_38
+  - first:
+      213: 7881165503654837076
+    second: uiskin_39
+  - first:
+      213: 5113315365084936662
+    second: uiskin_40
+  - first:
+      213: -663444881106096964
+    second: uiskin_63
+  - first:
+      213: 4365236822988074759
+    second: uiskin_99
+  - first:
+      213: 609122906671686388
+    second: uiskin_41
+  - first:
+      213: -6180621478880025874
+    second: uiskin_42
+  - first:
+      213: -8935390399789087933
+    second: uiskin_43
+  - first:
+      213: 5530398814671067094
+    second: uiskin_44
+  - first:
+      213: 4299464024086602998
+    second: uiskin_45
+  - first:
+      213: -1631591969003370949
+    second: uiskin_46
+  - first:
+      213: -6703185896686436309
+    second: uiskin_47
+  - first:
+      213: 4908516370082736761
+    second: uiskin_48
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: uiskin_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 489
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247855fa416bd5e90800000000000000
+      internalID: -7035266842925627582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 346
+        width: 141
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2f6815aa0f45ba0800000000000000
+      internalID: -6100986980877274408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 346
+        width: 142
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895506f2393424420800000000000000
+      internalID: 2612725033262405016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_3
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 442
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33123f5477bf70f50800000000000000
+      internalID: 6847718248133370163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 444
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4b19ff6a1cb4560800000000000000
+      internalID: 7299140544080491704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_5
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 444
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0814f70baf8aa1490800000000000000
+      internalID: -7774716012045319808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_6
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 442
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da542bf25b0174320800000000000000
+      internalID: 2542018885049271725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_7
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 370
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc596a004dc5a7b80800000000000000
+      internalID: -8396296489665129013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_8
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 370
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f6d48132330efa0800000000000000
+      internalID: -5773558496464376016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 370
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f08039f0e7b19830800000000000000
+      internalID: 4076241314628272369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_10
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 425
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7762978be5fd55020800000000000000
+      internalID: 2330013980148967031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_11
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 293
+        width: 138
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0f85214491c8560800000000000000
+      internalID: 7317251274726502621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_12
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 365
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9607049166f591360800000000000000
+      internalID: 7140843576287588457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_13
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 365
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6488262e3810470800000000000000
+      internalID: 8359107391715297013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_14
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 369
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5b9b360cb7bfdd0800000000000000
+      internalID: -2451229505936050775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_15
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 380
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3359d16885f828c00800000000000000
+      internalID: 901440485797500211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_16
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 369
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce919964b736f980800000000000000
+      internalID: -8505549598237811005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_17
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 292
+        width: 28
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b03b4b5c7172150800000000000000
+      internalID: 5847668779071507282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 200
+        width: 141
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7a4cf2033663910800000000000000
+      internalID: 1816748558301571011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 200
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba7fef29385bf4f0800000000000000
+      internalID: -793943906660156749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_20
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 226
+        width: 141
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27ac5f7764a34250800000000000000
+      internalID: 5927762298975069994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 226
+        width: 146
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978cd77b6130dab70800000000000000
+      internalID: 8911782633738717305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_22
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 292
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8cf8598dca9a390800000000000000
+      internalID: -7806518432847902547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_23
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 292
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4542917a17e89b990800000000000000
+      internalID: -7369702696429214636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_24
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 291
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227f8e48022ddf670800000000000000
+      internalID: 8574240302693938978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_25
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 80
+        width: 142
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ebfb127c709e600800000000000000
+      internalID: 497937785647251085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_26
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 224
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31eee7166ce19a380800000000000000
+      internalID: -8959596146288824813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_27
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 147
+        width: 141
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafe80a0a4b1d0660800000000000000
+      internalID: 7353563771375775658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_28
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 147
+        width: 140
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b6d730150043ea0800000000000000
+      internalID: -5894085664370234569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_29
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 221
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1fe67c8fd0d0270800000000000000
+      internalID: 8218240257170010544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_30
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 199
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afad167f872094c0800000000000000
+      internalID: -4282879748513878103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_31
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 214
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff4cb7d50ac56d10800000000000000
+      internalID: 2118321326190776319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_32
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 80
+        width: 141
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f976bbe2b2a89c0800000000000000
+      internalID: -3924276645587345585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_33
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 148
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9b2e8beb3ac9b10800000000000000
+      internalID: 1989645174931896764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_34
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 199
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2309b81dada206390800000000000000
+      internalID: -7827209033063100366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_35
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 199
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e9767e6566644f0800000000000000
+      internalID: -844875356649841002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 347
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1bb85653e74cfc0800000000000000
+      internalID: -3475514244621159997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3
+        width: 141
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49474a8e776cb6940800000000000000
+      internalID: 5290540405583279252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_38
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 3
+        width: 140
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952f0ede7e689f0b0800000000000000
+      internalID: -5694371923146771879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_39
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 75
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bb865f4468f5d60800000000000000
+      internalID: 7881165503654837076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 347
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d93f68ab3526f640800000000000000
+      internalID: 5113315365084936662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_63
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 2
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcae9d4568fac6f0800000000000000
+      internalID: -663444881106096964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_99
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fa8a233cf649c30800000000000000
+      internalID: 4365236822988074759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_41
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 0
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f228bc6e0a047800800000000000000
+      internalID: 609122906671686388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_42
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 31
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2e434e2850a3aa0800000000000000
+      internalID: -6180621478880025874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_43
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 220
+        width: 5
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343c22be5cd1ff380800000000000000
+      internalID: -8935390399789087933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_44
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 220
+        width: 5
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7d5beab6cefbc40800000000000000
+      internalID: 5530398814671067094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_45
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 220
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4e04810c3caab30800000000000000
+      internalID: 4299464024086602998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_46
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 220
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b368c2dafbb6b59e0800000000000000
+      internalID: -1631591969003370949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_47
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 220
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20c89421ff79f2a0800000000000000
+      internalID: -6703185896686436309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiskin_48
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 220
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97aa8f4d1ad8e1440800000000000000
+      internalID: 4908516370082736761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1657 @@
+fileFormatVersion: 2
+guid: 031856a375aa83144897a0208cec1587
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8767089636599578321
+    second: gamePack 1_1
+  - first:
+      213: 5154387202545292763
+    second: gamePack 1_3
+  - first:
+      213: 2069519968806482013
+    second: gamePack 1_4
+  - first:
+      213: 5246001923356467179
+    second: gamePack 1_5
+  - first:
+      213: 7580487886332391014
+    second: gamePack 1_6
+  - first:
+      213: -148099747689720420
+    second: gamePack 1_7
+  - first:
+      213: 5520857933167080174
+    second: gamePack 1_9
+  - first:
+      213: -1833658775701839077
+    second: gamePack 1_13
+  - first:
+      213: -8294345555991289614
+    second: gamePack 1_14
+  - first:
+      213: -2503552752999479871
+    second: gamePack 1_16
+  - first:
+      213: -7575180078007192978
+    second: gamePack 1_17
+  - first:
+      213: -1250672427610396102
+    second: gamePack 1_18
+  - first:
+      213: -904380401695436313
+    second: gamePack 1_22
+  - first:
+      213: 8996755544589096863
+    second: gamePack 1_23
+  - first:
+      213: 337756368647013132
+    second: gamePack 1_25
+  - first:
+      213: 4503288806104826357
+    second: gamePack 1_26
+  - first:
+      213: 3741000988824675612
+    second: gamePack 1_27
+  - first:
+      213: -1835339209249776553
+    second: gamePack 1_28
+  - first:
+      213: 1958852995969288580
+    second: gamePack 1_29
+  - first:
+      213: -692469284833816450
+    second: gamePack 1_31
+  - first:
+      213: 2539441313137970062
+    second: gamePack 1_32
+  - first:
+      213: 3571935987575509510
+    second: gamePack 1_36
+  - first:
+      213: 6944834683653371525
+    second: gamePack 1_37
+  - first:
+      213: -4882404801320198185
+    second: gamePack 1_38
+  - first:
+      213: -7447770199485573924
+    second: gamePack 1_41
+  - first:
+      213: 3668064651133969156
+    second: gamePack 1_42
+  - first:
+      213: -4905352555408078816
+    second: gamePack 1_43
+  - first:
+      213: 6269262126035955004
+    second: gamePack 1_47
+  - first:
+      213: -655284652670442595
+    second: gamePack 1_50
+  - first:
+      213: 1933915859543872171
+    second: gamePack 1_53
+  - first:
+      213: -3781996937016657972
+    second: gamePack 1_54
+  - first:
+      213: 142158600465947536
+    second: gamePack 1_55
+  - first:
+      213: -7820737884304066290
+    second: gamePack 1_56
+  - first:
+      213: 936804037250458403
+    second: gamePack 1_57
+  - first:
+      213: -3474915925630555739
+    second: gamePack 1_58
+  - first:
+      213: 1300934886445371340
+    second: gamePack 1_62
+  - first:
+      213: 450614224686585897
+    second: gamePack 1_63
+  - first:
+      213: -7004062790168701926
+    second: gamePack 1_64
+  - first:
+      213: 6980350310283303043
+    second: gamePack 1_65
+  - first:
+      213: -892805848111609587
+    second: gamePack 1_66
+  - first:
+      213: -1562332672123277036
+    second: gamePack 1_69
+  - first:
+      213: -2853817128221360330
+    second: gamePack 1_70
+  - first:
+      213: 9187257053019962090
+    second: gamePack 1_71
+  - first:
+      213: 4721285105685386188
+    second: gamePack 1_72
+  - first:
+      213: 4249154342771374435
+    second: gamePack 1_73
+  - first:
+      213: 3256159020576107537
+    second: gamePack 1_74
+  - first:
+      213: -231269026656951015
+    second: gamePack 1_75
+  - first:
+      213: 3429671578455489731
+    second: gamePack 1_76
+  - first:
+      213: -7765163498626074222
+    second: gamePack 1_78
+  - first:
+      213: 963331713190471346
+    second: gamePack 1_80
+  - first:
+      213: 4669076351014433689
+    second: gamePack 1_81
+  - first:
+      213: -8375590431014929868
+    second: gamePack 1_82
+  - first:
+      213: 7368814714542133270
+    second: gamePack 1_83
+  - first:
+      213: -653494410807913485
+    second: gamePack 1_84
+  - first:
+      213: 4486422260448672928
+    second: gamePack 1_86
+  - first:
+      213: 3551852231137652562
+    second: gamePack 1_87
+  - first:
+      213: 488309791105784769
+    second: gamePack 1_89
+  - first:
+      213: -2339234837394995214
+    second: gamePack 1_90
+  - first:
+      213: 375054009864883889
+    second: gamePack 1_92
+  - first:
+      213: 8258579359719262545
+    second: gamePack 1_93
+  - first:
+      213: -2816865146437632638
+    second: gamePack 1_94
+  - first:
+      213: -6756371313195068178
+    second: gamePack 1_95
+  - first:
+      213: 7360939009329723640
+    second: gamePack 1_97
+  - first:
+      213: 4464039922438102260
+    second: gamePack 1_98
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gamePack 1_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1894
+        width: 374
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f214970fc6a055680800000000000000
+      internalID: -8767089636599578321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_3
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1819
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd518820adf088740800000000000000
+      internalID: 5154387202545292763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_4
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1855
+        width: 98
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50b944627968bc10800000000000000
+      internalID: 2069519968806482013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_5
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1834
+        width: 75
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef9dac64fa8dc840800000000000000
+      internalID: 5246001923356467179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_6
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1707
+        width: 450
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e6ef8c19d433960800000000000000
+      internalID: 7580487886332391014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_7
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1801
+        width: 85
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9511ab6018d1fdf0800000000000000
+      internalID: -148099747689720420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_9
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1802
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee232d91a070e9c40800000000000000
+      internalID: 5520857933167080174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_13
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1675
+        width: 95
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13a3030f098d86e0800000000000000
+      internalID: -1833658775701839077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_14
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1662
+        width: 80
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0acc289a094ec80800000000000000
+      internalID: -8294345555991289614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_16
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1656
+        width: 87
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5c3091908914dd0800000000000000
+      internalID: -2503552752999479871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_17
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1706
+        width: 99
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62f3c4aadd8fd690800000000000000
+      internalID: -7575180078007192978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_18
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1686
+        width: 91
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a28edad08b4aee0800000000000000
+      internalID: -1250672427610396102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1474
+        width: 367
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e15e17f0def273f0800000000000000
+      internalID: -904380401695436313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_23
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1479
+        width: 91
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97524e3085eadc70800000000000000
+      internalID: 8996755544589096863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_25
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1478
+        width: 100
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03c4d5b0a3ffa400800000000000000
+      internalID: 337756368647013132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_26
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1557
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f10fd84f45ee7e30800000000000000
+      internalID: 4503288806104826357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_27
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1543
+        width: 88
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15a7432494bae330800000000000000
+      internalID: 3741000988824675612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 950
+        width: 320
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c125696b09786e0800000000000000
+      internalID: -1835339209249776553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_29
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1410
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48985ffdb6e3f2b10800000000000000
+      internalID: 1958852995969288580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_31
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1394
+        width: 74
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e709c93badad366f0800000000000000
+      internalID: -692469284833816450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_32
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1299
+        width: 424
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b4a857b68ed3320800000000000000
+      internalID: 2539441313137970062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_36
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1264
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6025fd31bd0129130800000000000000
+      internalID: 3571935987575509510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_37
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1254
+        width: 99
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586b8f67952016060800000000000000
+      internalID: 6944834683653371525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_38
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1147
+        width: 412
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfd5a783b63e3cb0800000000000000
+      internalID: -4882404801320198185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_41
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1086
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd41ceaa67434a890800000000000000
+      internalID: -7447770199485573924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_42
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1102
+        width: 74
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403e100bd5597e230800000000000000
+      internalID: 3668064651133969156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 981
+        width: 394
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028c8dc27dfacebb0800000000000000
+      internalID: -4905352555408078816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_47
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 971
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dee2a00b4e00750800000000000000
+      internalID: 6269262126035955004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_50
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 959
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9320da8416f7e6f0800000000000000
+      internalID: -655284652670442595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_53
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 517
+        width: 383
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba25b995a36a6da10800000000000000
+      internalID: 1933915859543872171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_54
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 783
+        width: 155
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7b18bd2d5a38bc0800000000000000
+      internalID: -3781996937016657972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_55
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 812
+        width: 85
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b1a827e7c09f100800000000000000
+      internalID: 142158600465947536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_56
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 863
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09bd9c8458277390800000000000000
+      internalID: -7820737884304066290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_57
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 761
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3232778fe42300d00800000000000000
+      internalID: 936804037250458403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_58
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 755
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a96174606e96cfc0800000000000000
+      internalID: -3474915925630555739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_62
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 716
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf4d76f269dd0210800000000000000
+      internalID: 1300934886445371340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_63
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 572
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9289e29ff37e04600800000000000000
+      internalID: 450614224686585897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_64
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 563
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14967f50029cce90800000000000000
+      internalID: -7004062790168701926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_65
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 635
+        width: 99
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388593caf9f2fd060800000000000000
+      internalID: 6980350310283303043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_66
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 571
+        width: 85
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d098ae9bfcd1c93f0800000000000000
+      internalID: -892805848111609587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_69
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 475
+        width: 88
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411fa1956ba715ae0800000000000000
+      internalID: -1562332672123277036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_70
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 233
+        width: 511
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fb07a21743568d0800000000000000
+      internalID: -2853817128221360330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_71
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 463
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaf4711d91bf7f70800000000000000
+      internalID: 9187257053019962090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_72
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 463
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc358b70acf558140800000000000000
+      internalID: 4721285105685386188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_73
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 463
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36932bc9c5708fa30800000000000000
+      internalID: 4249154342771374435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_74
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 441
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c6f999063303d20800000000000000
+      internalID: 3256159020576107537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_75
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 441
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915ef8aab0e5accf0800000000000000
+      internalID: -231269026656951015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_76
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 443
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccb7122124a89f20800000000000000
+      internalID: 3429671578455489731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_78
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 424
+        width: 81
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299309980f89c3490800000000000000
+      internalID: -7765163498626074222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_80
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 391
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b62695d6117e5d00800000000000000
+      internalID: 963331713190471346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_81
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 391
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99374631434ebc040800000000000000
+      internalID: 4669076351014433689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_82
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 391
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ab137f0ece3cb80800000000000000
+      internalID: -8375590431014929868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_83
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 391
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61094f3f0f9434660800000000000000
+      internalID: 7368814714542133270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_84
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 335
+        width: 98
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f35715bb425ee6f0800000000000000
+      internalID: -653494410807913485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_86
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 248
+        width: 89
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acb27a9649f24e30800000000000000
+      internalID: 4486422260448672928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_87
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 247
+        width: 97
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f63a329c6ba4130800000000000000
+      internalID: 3551852231137652562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_89
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 252
+        width: 98
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb9437fa23d6c600800000000000000
+      internalID: 488309791105784769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_90
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 183
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f74ad62f4e598fd0800000000000000
+      internalID: -2339234837394995214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_92
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 182
+        width: 75
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be059582a5743500800000000000000
+      internalID: 375054009864883889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_93
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 56
+        width: 99
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159807dfb2e5c9270800000000000000
+      internalID: 8258579359719262545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_94
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 6
+        width: 183
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28df76ed21c78e8d0800000000000000
+      internalID: -2816865146437632638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_95
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 54
+        width: 94
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee45e52661c8c32a0800000000000000
+      internalID: -6756371313195068178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_97
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 34
+        width: 89
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8f960770f472660800000000000000
+      internalID: 7360939009329723640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamePack 1_98
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 34
+        width: 91
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcd51078a473fd30800000000000000
+      internalID: 4464039922438102260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
