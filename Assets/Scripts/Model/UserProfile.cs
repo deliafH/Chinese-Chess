@@ -17,6 +17,9 @@ public class UserProfile
     public string phoneNumber;
     public int userId;
     public string avatar;
+    public int totalWins;
+    public int totalLoses;
+    public int totalGames;
 }
 
 [System.Serializable]

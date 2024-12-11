@@ -501,6 +501,7 @@ public class SocketIOManager : Singleton<SocketIOManager>
         // Gửi sự kiện SERVER_JOIN_ROOM với thông điệp roomId
         client.EmitAsync("SERVER_JOIN_ROOM", room);
         Debug.Log("Event SERVER_JOIN_ROOM sent with roomId: " + roomId);
+        SceneManager.LoadScene("GamePlay");
 
     }
 

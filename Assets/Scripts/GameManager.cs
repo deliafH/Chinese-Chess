@@ -15,6 +15,8 @@ public class GameManager : Singleton<GameManager>
     public UserProfile user;
     public bool isOwner =>
         roomData.userProfiles[0].id == user.userId;
+    public GameHistoryDetail gameHistoryDetail;
+    public GameHistory gameHistory;
     void Start()
     {
         DontDestroyOnLoad(this);
@@ -23,7 +25,12 @@ public class GameManager : Singleton<GameManager>
     public bool isRed()
     {
         string id = user.userId.ToString();
+        if(gameRoom != null && gameRoom.playerIdToColorMap.ContainsKey(id))
         return gameRoom.playerIdToColorMap[id] == "RED";
+        else
+        {
+            return (gameHistory.player1Id == user.userId) ? gameHistory.player1Color == "RED" : gameHistory.player2Color == "RED";
+        }
     }
     void Update()
     {

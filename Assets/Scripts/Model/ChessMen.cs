@@ -53,7 +53,7 @@ public class ChessMen: MonoBehaviour
     {
         UnityMainThreadDispatcher.Instance().Enqueue(() =>
         {
-            BoardGenerator.Instance.points[curCoordnates].isEmpty = true;
+            BoardGenerator.Instance.points[curCoordnates].MoveOut();
             curCoordnates = chessPoint.coordinates;
             transform.position = chessPoint.position;
         });

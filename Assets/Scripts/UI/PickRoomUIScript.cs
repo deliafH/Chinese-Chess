@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PickRoomUIScript: MonoBehaviour
 {
     [SerializeField] RoomDisplayScript roomDisplayPrefab;
     [SerializeField] Transform scrollViewContent;
-
+    [SerializeField] TMP_InputField idText;
     private void Start()
     {
         OnRefresh();
@@ -43,6 +45,11 @@ public class PickRoomUIScript: MonoBehaviour
                 : Instantiate(roomDisplayPrefab, scrollViewContent);
             roomDisplay.Init(rooms[i]);
         }
+    }
+
+    public void Join()
+    {
+        SocketIOManager.Instance.JoinRoom(idText.text);
     }
 }
 

@@ -126,8 +126,95 @@ public class PacketSender : Singleton<PacketSender>
         }));
     }
 
-}
+    public void FetchHistory(string token, Action<List<GameHistory>> callback)
+    {
+        string url = "http://103.211.206.26:3005/game-histories";
 
+        StartCoroutine(SocketClient.Instance.GetDataFromServer(url, token, (request) =>
+        {
+            if (request != null)
+            {
+                Debug.Log("Response: " + request.downloadHandler.text);
+
+                // Deserialize the JSON response
+                HistoryApiResponse apiResponse = JsonUtility.FromJson<HistoryApiResponse>(request.downloadHandler.text);
+
+                // Log the API response for debugging
+                Debug.Log("API Response: " + JsonUtility.ToJson(apiResponse));
+
+                // Check if the status code indicates success
+                if (apiResponse != null && apiResponse.statusCode == 200)
+                {
+                    // Log the data to verify it's populated
+                    if (apiResponse.data != null)
+                    {
+                        Debug.Log("Data Count: " + apiResponse.data.Count);
+                        callback?.Invoke(apiResponse.data);
+                    }
+                    else
+                    {
+                        Debug.LogError("Data is null.");
+                        callback?.Invoke(null); // Indicate failure
+                    }
+                }
+                else
+                {
+                    Debug.LogError("Failed to fetch profile data or status code not 200.");
+                    callback?.Invoke(null); // Indicate failure
+                }
+            }
+            else
+            {
+                Debug.LogError("Request was null.");
+                callback?.Invoke(null); // Indicate failure
+            }
+        }));
+    }
+    public void FetchHistoryDetail(string token, int id, Action<GameHistoryDetail> callback)
+    {
+        string url = "http://103.211.206.26:3005/game-histories/" + id.ToString();
+
+        StartCoroutine(SocketClient.Instance.GetDataFromServer(url, token, (request) =>
+        {
+            if (request != null)
+            {
+                Debug.Log("Response: " + request.downloadHandler.text);
+
+                // Deserialize the JSON response
+                HistoryDetailApiResponse apiResponse = JsonUtility.FromJson<HistoryDetailApiResponse>(request.downloadHandler.text);
+
+                // Log the API response for debugging
+                Debug.Log("API Response: " + JsonUtility.ToJson(apiResponse));
+
+                // Check if the status code indicates success
+                if (apiResponse != null && apiResponse.statusCode == 200)
+                {
+                    // Log the data to verify it's populated
+                    if (apiResponse.data != null)
+                    {
+                        GameManager.Instance.gameHistoryDetail = apiResponse.data;
+                        callback?.Invoke(apiResponse.data);
+                    }
+                    else
+                    {
+                        Debug.LogError("Data is null.");
+                        callback?.Invoke(null); // Indicate failure
+                    }
+                }
+                else
+                {
+                    Debug.LogError("Failed to fetch profile data or status code not 200.");
+                    callback?.Invoke(null); // Indicate failure
+                }
+            }
+            else
+            {
+                Debug.LogError("Request was null.");
+                callback?.Invoke(null); // Indicate failure
+            }
+        }));
+    }
+}
 
 
 [System.Serializable]
