@@ -24,7 +24,6 @@ public class MatchDisplayScript : MonoBehaviour
             if (profileData != null)
             {
                 SceneManager.LoadScene("MatchHistory");
-                GameManager.Instance.gameHistory = this.gameHistory;
             }
             else
             {

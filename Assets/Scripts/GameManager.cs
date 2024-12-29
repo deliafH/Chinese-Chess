@@ -5,18 +5,12 @@ using UnityEngine;
 public class GameManager : Singleton<GameManager>
 {
     public string accessToken;
-    private RoomData roomData;
+    public RoomData RoomData;
     public GameRoom gameRoom;
-    public RoomData RoomData
-    {
-        get { return roomData; }
-        set { this.roomData = value; }
-    }
     public UserProfile user;
     public bool isOwner =>
-        roomData.userProfiles[0].id == user.userId;
+        RoomData.userProfiles[0].id == user.userId;
     public GameHistoryDetail gameHistoryDetail;
-    public GameHistory gameHistory;
     void Start()
     {
         DontDestroyOnLoad(this);
@@ -25,11 +19,11 @@ public class GameManager : Singleton<GameManager>
     public bool isRed()
     {
         string id = user.userId.ToString();
-        if(gameRoom != null && gameRoom.playerIdToColorMap.ContainsKey(id))
-        return gameRoom.playerIdToColorMap[id] == "RED";
+        if (gameRoom != null && gameRoom.playerIdToColorMap.ContainsKey(id))
+            return gameRoom.playerIdToColorMap[id] == "RED";
         else
         {
-            return (gameHistory.player1Id == user.userId) ? gameHistory.player1Color == "RED" : gameHistory.player2Color == "RED";
+            return (gameHistoryDetail.player1Id == user.userId) ? gameHistoryDetail.player1Color == "RED" : gameHistoryDetail.player2Color == "RED";
         }
     }
     void Update()

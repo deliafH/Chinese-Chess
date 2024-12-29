@@ -34,3 +34,11 @@ public class GameResult
     public UserProfileData winner;
     public UserProfileData loser;
 }
+
+
+[Serializable]
+public class InviteApiResponse
+{
+    public UserProfileData inviter;
+    public RoomData room;
+}

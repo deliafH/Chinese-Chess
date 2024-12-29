@@ -18,7 +18,7 @@ public class SocketIOManager : Singleton<SocketIOManager>
     }
     private SocketIOUnity client;
 
-    private string serverUri = "ws://103.211.206.26:8080";
+    private string serverUri = "ws://160.250.135.30:8080";
 
     public void StartConnection(string accessToken)
     {
@@ -118,6 +118,12 @@ public class SocketIOManager : Singleton<SocketIOManager>
             Debug.Log("GameOver: " + data);
             ProcessGameOver(data);
         });
+
+        client.On("CLIENT_INVITE_FRIEND", (data) =>
+        {
+            Debug.Log("Invite: " + data);
+            ProcessFriendInvite(data);
+        });
     }
 
     public void SendReady(bool isReady)
@@ -133,6 +139,7 @@ public class SocketIOManager : Singleton<SocketIOManager>
             Debug.Log("Event CLIENT_PLAYER_CANCEL_READY sent.");
         }
     }
+
 
     public void SendChessMen(Vector2 v)
     {
@@ -168,6 +175,29 @@ public class SocketIOManager : Singleton<SocketIOManager>
         // Emit the event SERVER_GET_VALID_MOVES with the move data
         client.EmitAsync("SERVER_MOVE_PIECE", moveData);
     }
+
+    public void SendInvite(int id)
+    {
+        Debug.Log("Invite: " + id);
+        var idFriend = new Dictionary<string, object>
+        {
+            { "inviteeId", id }
+        };
+
+        // Emit the data as a JSON string
+        client.Emit("SERVER_INVITE_FRIEND", idFriend);
+    }
+
+    public void SendSurrender()
+    {
+        client.EmitAsync("SERVER_SURRENDER_GAME");
+    }
+
+    public void SendPeace()
+    {
+        client.EmitAsync("SERVER_PLAYER_READY");
+    }
+
     private void ProcessPlayerJoinRoomData(SocketIOResponse jsonData)
     {
         try
@@ -334,7 +364,8 @@ public class SocketIOManager : Singleton<SocketIOManager>
                         {
                             // Update the board state for the valid moves
                             BoardGenerator.Instance.points[new Vector2(point.x, point.y)].SetCanMove(ChessMen.choosenChessMen);
-                        }else BoardGenerator.Instance.points[new Vector2(9 - point.x, point.y)].SetCanMove(ChessMen.choosenChessMen);
+                        }
+                        else BoardGenerator.Instance.points[new Vector2(9 - point.x, point.y)].SetCanMove(ChessMen.choosenChessMen);
 
                     }
                 }
@@ -452,6 +483,68 @@ public class SocketIOManager : Singleton<SocketIOManager>
             Debug.LogError("Error retrieving JSON data: " + ex.Message);
         }
     }
+
+    private void ProcessFriendInvite(SocketIOResponse data)
+    {
+        string jsonResponse = data.ToString();
+        Debug.Log(jsonResponse);
+
+        if (string.IsNullOrEmpty(jsonResponse))
+        {
+            Debug.LogWarning("Raw JSON Response is null or empty.");
+            return;
+        }
+        Debug.Log(1);
+        UnityMainThreadDispatcher.Instance().Enqueue(() =>
+        {
+            Debug.Log("Processing on main thread"); // Added debug line
+            try
+            {
+                List<InviteApiResponse> gameResults = JsonConvert.DeserializeObject<List<InviteApiResponse>>(jsonResponse);
+
+
+                if (gameResults != null && gameResults.Count > 0)
+                {
+                    InviteApiResponse invite = gameResults[0];
+                    InvitePanel.Instance.Init(invite);
+                }
+                else
+                {
+                    Debug.LogWarning("No game result data found after deserialization.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError("Error retrieving JSON data: " + ex.Message);
+            }
+        });
+    }
+    private void ProcessPeace(SocketIOResponse data)
+    {
+        try
+        {
+            List<MessageData> messageDataList = JsonConvert.DeserializeObject<List<MessageData>>(data.ToString());
+
+            if (messageDataList != null && messageDataList.Count > 0)
+            {
+                string message = messageDataList[0].ProcessMessage(); // Lấy giá trị message
+                Debug.Log(message); // In ra giá trị
+
+                UnityMainThreadDispatcher.Instance().Enqueue(() =>
+                {
+                    NotifyUIScript.Instance.StartNotify(message);
+                });
+            }
+            else
+            {
+                Debug.LogWarning("No message data found.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError("Error retrieving JSON data: " + ex.Message);
+        }
+    }
     private void ProcessError(SocketIOResponse data)
     {
         try
@@ -505,11 +598,6 @@ public class SocketIOManager : Singleton<SocketIOManager>
 
     }
 
-    private void OnDestroy()
-    {
-        // Ngắt kết nối khi đối tượng bị hủy
-        client.DisconnectAsync();
-    }
 }
 [Serializable]
 public class MessageData

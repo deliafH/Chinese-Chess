@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class ProfilePanelScript : MonoBehaviour
 {
     [SerializeField] TMP_InputField nameIF, addressIF, phoneIF;
+    [SerializeField] FileBrowserUpdate avatar;
+    public string avatarLink;
     private void Start()
     {
         string token = GameManager.Instance.accessToken; // Ensure you have the token from GameManager
@@ -20,6 +22,8 @@ public class ProfilePanelScript : MonoBehaviour
                 nameIF.text = profileData.fullName;
                 addressIF.text = profileData.address;
                 phoneIF.text = profileData.phoneNumber;
+                avatarLink = profileData.avatar;
+                StartCoroutine(avatar.LoadImage(avatarLink));
             }
             else
             {
@@ -28,6 +32,13 @@ public class ProfilePanelScript : MonoBehaviour
         });
     }
 
+    public void Edit()
+    {
+        UserProfile userProfile = new UserProfile 
+        { fullName = nameIF.text, address = addressIF.text, 
+            phoneNumber = phoneIF.text, avatar = avatarLink };
+        PacketSender.Instance.UpdateProfile(userProfile);
+    }
     public void LogOut()
     {
         SceneManager.LoadScene("MainMenu");

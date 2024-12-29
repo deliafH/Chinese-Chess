@@ -8,7 +8,7 @@ using UnityEngine;
 
 //public enum ChessType { General, Advisor, Chariot, Cannon, Elephant, Horse, Solider}
 // vua - si - xe - phao - tuong - ma - tot
-public class ChessMen: MonoBehaviour
+public class ChessMen : MonoBehaviour
 {
     public static ChessMen choosenChessMen;
     public string[] ChessType { get; } = { "XE", "MA", "TINH", "SI", "TUONG", "PHAO", "TOT" };
@@ -24,7 +24,8 @@ public class ChessMen: MonoBehaviour
         BoardGenerator.Instance.points
             [startCoordinates].InitChessMen(this);
 
-        for (int i = 0; i < ChessType.Length; i++) {
+        for (int i = 0; i < ChessType.Length; i++)
+        {
             if (type == ChessType[i])
             {
                 if (color == "RED")
@@ -62,11 +63,12 @@ public class ChessMen: MonoBehaviour
     protected void ChooseToMove()
     {
         choosenChessMen = this;
-        if(GameManager.Instance.isRed())
+        if (GameManager.Instance.isRed())
         {
             SocketIOManager.Instance.SendChessMen(new Vector2(curCoordnates.x, curCoordnates.y));
 
-        }else
+        }
+        else
         {
 
             SocketIOManager.Instance.SendChessMen(new Vector2(9 - curCoordnates.x, curCoordnates.y));

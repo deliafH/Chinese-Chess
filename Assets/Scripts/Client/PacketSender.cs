@@ -6,13 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class PacketSender : Singleton<PacketSender>
 {
-
+    string ip = "http://160.250.135.30:3005";
     public void Login(string username, string password)
     {
         var loginRequestData = new LoginRequestData { username = username, password = password };
         string jsonData = JsonUtility.ToJson(loginRequestData);
-        string url = "http://103.211.206.26:3005/auth/login";
-
+        string url = ip + "/auth/login";
         StartCoroutine(SocketClient.Instance.SendMessageToServer(jsonData, url, (result, response) =>
         {
             if (result == UnityWebRequest.Result.Success)
@@ -47,7 +46,7 @@ public class PacketSender : Singleton<PacketSender>
     {
         var loginData = new LoginData { username = username, password = password };
         string jsonData = JsonUtility.ToJson(loginData);
-        string url = "http://103.211.206.26:3005/auth/register";
+        string url = ip + "/auth/register";
 
         StartCoroutine(SocketClient.Instance.SendMessageToServer(jsonData, url, (result, response) =>
         {
@@ -68,7 +67,7 @@ public class PacketSender : Singleton<PacketSender>
 
     public void FetchUserProfile(string token, Action<UserProfile> callback)
     {
-        string url = "http://103.211.206.26:3005/users/profile";
+        string url = ip + "/users/profile";
 
         StartCoroutine(SocketClient.Instance.GetDataFromServer(url, token, (request) =>
         {
@@ -97,9 +96,43 @@ public class PacketSender : Singleton<PacketSender>
         }));
     }
 
+    public void UpdateProfile(UserProfile userProfile)
+    {
+        string jsonData = JsonUtility.ToJson(userProfile);
+        string url = ip + "/users/profile";
+        string token = GameManager.Instance.accessToken;
+
+        StartCoroutine(SocketClient.Instance.SendMessageToServer(jsonData, url, token, (request) =>
+        {
+            if (request != null)
+            {
+                // Deserialize the JSON response to ApiResponse object
+                ApiResponse apiResponse = JsonUtility.FromJson<ApiResponse>(request.downloadHandler.text);
+
+                // Check if the status code indicates success
+                if (apiResponse != null && apiResponse.statusCode == 201)
+                {
+                    // Invoke the callback with the ProfileData
+                    GameManager.Instance.user = apiResponse.data;
+                    Debug.Log(apiResponse);
+                }
+                else
+                {
+                    Debug.LogError("Failed to fetch profile data or status code not 200.");
+                }
+            }
+            else
+            {
+                //callback?.Invoke(null); // Indicate failure
+            }
+
+        }));
+    }
+
+
     public void GetRooms(string token, Action<List<Room>> callback)
     {
-        string url = "http://103.211.206.26:3005/games/rooms";
+        string url = ip + "/games/rooms";
         StartCoroutine(SocketClient.Instance.GetDataFromServer(url, token, (request) =>
         {
             if (request != null)
@@ -128,7 +161,7 @@ public class PacketSender : Singleton<PacketSender>
 
     public void FetchHistory(string token, Action<List<GameHistory>> callback)
     {
-        string url = "http://103.211.206.26:3005/game-histories";
+        string url = ip + "/game-histories";
 
         StartCoroutine(SocketClient.Instance.GetDataFromServer(url, token, (request) =>
         {
@@ -172,7 +205,7 @@ public class PacketSender : Singleton<PacketSender>
     }
     public void FetchHistoryDetail(string token, int id, Action<GameHistoryDetail> callback)
     {
-        string url = "http://103.211.206.26:3005/game-histories/" + id.ToString();
+        string url = ip + "/game-histories/" + id.ToString();
 
         StartCoroutine(SocketClient.Instance.GetDataFromServer(url, token, (request) =>
         {
@@ -214,7 +247,9 @@ public class PacketSender : Singleton<PacketSender>
             }
         }));
     }
+
 }
+
 
 
 [System.Serializable]

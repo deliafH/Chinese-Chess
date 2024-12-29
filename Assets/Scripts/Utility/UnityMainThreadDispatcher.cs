@@ -5,13 +5,14 @@ using UnityEngine;
 public class UnityMainThreadDispatcher : MonoBehaviour
 {
     private static readonly Queue<Action> _executionQueue = new Queue<Action>();
+
     private static UnityMainThreadDispatcher _instance;
 
     public static UnityMainThreadDispatcher Instance()
     {
         if (_instance == null)
         {
-            var obj = new GameObject("UnityMainThreadDispatcher");
+            GameObject obj = new GameObject("MainThreadDispatcher");
             _instance = obj.AddComponent<UnityMainThreadDispatcher>();
             DontDestroyOnLoad(obj);
         }
@@ -28,12 +29,14 @@ public class UnityMainThreadDispatcher : MonoBehaviour
 
     private void Update()
     {
-        lock (_executionQueue)
+        while (_executionQueue.Count > 0)
         {
-            while (_executionQueue.Count > 0)
+            Action action;
+            lock (_executionQueue)
             {
-                _executionQueue.Dequeue().Invoke();
+                action = _executionQueue.Dequeue();
             }
+            action?.Invoke();
         }
     }
 }

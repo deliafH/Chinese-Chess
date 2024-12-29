@@ -10,7 +10,7 @@ public class GamePlayUIScript : Singleton<GamePlayUIScript>
     [SerializeField] ProfileButtonDisplay urProfile, enemyProfile;
     [SerializeField]
     private GameObject urProfileButton, enemyProfileButton,
-        readyButton, urReadyIcon, enemyReadyIcon;
+        readyButton, urReadyIcon, enemyReadyIcon, optionButton;
     private bool isReady;
     [SerializeField] Text idText;
 
@@ -23,7 +23,7 @@ public class GamePlayUIScript : Singleton<GamePlayUIScript>
     private void Start()
     {
         isReady = false;
-        idText.text = "ID: "+ GameManager.Instance.RoomData.id;
+        //idText.text = "ID: " + GameManager.Instance.RoomData.id;
         Refresh();
     }
 
@@ -69,7 +69,7 @@ public class GamePlayUIScript : Singleton<GamePlayUIScript>
             urReadyIcon.SetActive(false);
             enemyReadyIcon.SetActive(false);
             readyButton.SetActive(false);
+            optionButton.SetActive(true);
         });
     }
-
 }

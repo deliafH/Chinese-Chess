@@ -50,4 +50,34 @@ public class SocketClient : Singleton<SocketClient>
             }
         }
     }
+
+    public IEnumerator SendMessageToServer(string jsonData, string url, string token, Action<UnityWebRequest> callback)
+    {
+        Debug.Log($"Sending to URL: {url}");
+        Debug.Log($"With Token: {token}");
+        Debug.Log($"Data: {jsonData}");
+
+        using (UnityWebRequest www = UnityWebRequest.Put(url, jsonData))
+        {
+            www.method = UnityWebRequest.kHttpVerbPOST; // Set method to POST
+            www.SetRequestHeader("Content-Type", "application/json");
+            www.SetRequestHeader("Authorization", $"Bearer {token}"); // Set the Authorization header
+
+            // Send the request and wait for a response
+            yield return www.SendWebRequest();
+
+            // Check for errors
+            if (www.result != UnityWebRequest.Result.Success)
+            {
+                Debug.LogError($"Error updating profile: {www.error}");
+                Debug.LogError($"Response: {www.downloadHandler.text}"); // Print the response body
+                callback?.Invoke(null); // Notify failure
+            }
+            else
+            {
+                Debug.Log("Profile updated successfully!");
+                callback?.Invoke(www); // Notify success
+            }
+        }
+    }
 }

@@ -14,7 +14,7 @@ public class RoomDisplayScript : MonoBehaviour
     {
         idText.text = room.id;
         this.room = room;
-        for (int i = 0; i< room.playerIds.Count; i++)
+        for (int i = 0; i < room.playerIds.Count; i++)
         {
             playersTransform.GetChild(i).gameObject.SetActive(true);
         }
@@ -26,4 +26,3 @@ public class RoomDisplayScript : MonoBehaviour
         SocketIOManager.Instance.JoinRoom(room.id);
     }
 }
-

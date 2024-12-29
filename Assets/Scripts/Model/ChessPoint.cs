@@ -24,7 +24,7 @@ public class ChessPoint : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         circleCollider2D = GetComponent<CircleCollider2D>();
-        blueColor = new Color(0, 122f/255, 255f/255, 100f/255);
+        blueColor = new Color(0, 122f / 255, 255f / 255, 100f / 255);
         redColor = new Color(1, 0, 0, 100f / 255);
         dieChess = new Stack<ChessMen>();
         isRespawning = false;

@@ -15,7 +15,7 @@ public class ProfileButtonDisplay : MonoBehaviour
         {
             this.user = user;
             textName.text = user.fullName;
-            StartCoroutine(LoadImage(GameManager.Instance.user.avatar, avatar));
+            StartCoroutine(LoadImage(user.avatar, avatar));
         });
 
     }

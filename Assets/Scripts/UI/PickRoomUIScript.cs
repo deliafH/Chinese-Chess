@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PickRoomUIScript: MonoBehaviour
+public class PickRoomUIScript : MonoBehaviour
 {
     [SerializeField] RoomDisplayScript roomDisplayPrefab;
     [SerializeField] Transform scrollViewContent;
@@ -34,11 +34,11 @@ public class PickRoomUIScript: MonoBehaviour
 
     public void UpdateUI(List<Room> rooms)
     {
-        for(int i = 0; i < scrollViewContent.childCount; i++)
+        for (int i = 0; i < scrollViewContent.childCount; i++)
         {
             scrollViewContent.GetChild(i).gameObject.SetActive(i < rooms.Count);
         }
-        for(int i = 0; i < rooms.Count; i++)
+        for (int i = 0; i < rooms.Count; i++)
         {
             RoomDisplayScript roomDisplay = (i < scrollViewContent.childCount) ?
                 scrollViewContent.GetChild(i).GetComponent<RoomDisplayScript>()
@@ -52,4 +52,3 @@ public class PickRoomUIScript: MonoBehaviour
         SocketIOManager.Instance.JoinRoom(idText.text);
     }
 }
-
